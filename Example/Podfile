@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '8.0'
+
+target 'WCDBNative_Example' do
+  pod 'WCDBNative', :path => '../'
+
+  target 'WCDBNative_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
